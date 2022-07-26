@@ -6,7 +6,7 @@ import { BellIcon,DotsHorizontalIcon, BookmarkIcon, ClipboardIcon, DotsCircleHor
 import 'tailwindcss/tailwind.css'
 function Sidebar() {
   return (
-    <div className='hidden sm:flex flex-col p-2 xl:items-start fixed h-full'>
+    <div className='hidden sm:flex flex-col p-2 xl:items-start fixed h-full xl:ml-24'>
         {/*Twitterlogo*/}
         <div className="hoverEffect p-0 hover:bg-blue-100 xl:px-1">
       <Image width="50" height="50" src="https://imgs.search.brave.com/HSqZIViVT05nuvKYi1zxI4wa9U4S0cYVgXJBDNUjowc/rs:fit:1200:1200:1/g:ce/aHR0cDovLzEwMDBs/b2dvcy5uZXQvd3At/Y29udGVudC91cGxv/YWRzLzIwMTcvMDYv/VHdpdHRlci1Mb2dv/LnBuZw">
