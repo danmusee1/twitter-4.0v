@@ -25,7 +25,7 @@ export default function Home({ newsResults, randomUsersResults }) {
 
         <Widgets
           newsResults={newsResults.articles}
-          //randomUsersResults={randomUsersResults.results}
+          randomUsersResults={randomUsersResults.results}
         />
 
         {/* Modal */}
@@ -52,7 +52,7 @@ export async function getServerSideProps() {
   return {
     props: {
       newsResults,
-     // randomUsersResults,
+      randomUsersResults,
     },
   };
 }
