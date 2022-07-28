@@ -19,7 +19,7 @@ function Sidebar() {
         <SidebarMenuItem text="Explore" Icon={HashtagIcon}/>
         <SidebarMenuItem text="Notification" Icon={BellIcon}/>
         <SidebarMenuItem text="Messages" Icon={InboxInIcon}/>
-        <SidebarMenuItem text="Bookmarks" Icon={BookmarkIcon}/>
+        <SidebarMenuItem text="Boomarks" Icon={BookmarkIcon}/>
         <SidebarMenuItem text="Lists" Icon={ClipboardIcon}/>
         <SidebarMenuItem text="Profile" Icon={UserCircleIcon}/>
         <SidebarMenuItem text="More" Icon={DotsCircleHorizontalIcon}/>
